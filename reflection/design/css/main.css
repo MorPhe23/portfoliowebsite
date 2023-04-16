@@ -104,7 +104,7 @@ body {
   }
   
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../reflection/design/images/home.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("design/images/home.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
