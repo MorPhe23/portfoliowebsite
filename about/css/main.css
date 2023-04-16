@@ -108,7 +108,7 @@ div {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .hero-image {
+  .about-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/about/images/about.jpg;
     height: 50%;
     background-position: center;
