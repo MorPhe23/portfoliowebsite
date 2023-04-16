@@ -151,7 +151,11 @@
   }
   
   .hero-image {
+<<<<<<< HEAD
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/contact.jpg");
+=======
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..images/contact.jpg");
+>>>>>>> df75c95ee2f43ba5e7fb7559b055c236a5ac0917
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
