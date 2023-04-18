@@ -17,7 +17,7 @@
     text-justify: inter-word;
   }
 
-  
+
 
 /*Style the sizes*/
 
@@ -136,4 +136,8 @@
 nav a {
     color: #fff;
     text-decoration: none;
+}
+
+* {
+  display: flex;
 }
