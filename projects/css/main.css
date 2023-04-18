@@ -148,7 +148,4 @@ nav a {
     text-decoration: none;
 }
 
-section {
-  display: inline-block; /* or use display: flex; */
-  
-}
+
