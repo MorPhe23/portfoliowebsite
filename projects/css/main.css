@@ -150,7 +150,5 @@ nav a {
 
 section {
   display: inline-block; /* or use display: flex; */
-  width: 30%; /* or adjust the width to your liking */
-  vertical-align: top; /* align the sections to the top */
-  margin: 10px; /* add some margin between the sections */
+  
 }
