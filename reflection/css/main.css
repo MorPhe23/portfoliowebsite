@@ -129,12 +129,11 @@ section {
   
   /* Reference: CSS Template utilised from https://www.w3schools.com/css/css_templates.asp*/
   
-  /* styles for screens with a width of less than 768px */
-@media screen and (max-width: 400px) {
-  .column {
-    width: 60%;
+  @media (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
   }
-}
 
   
   body, html {
