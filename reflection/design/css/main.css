@@ -14,7 +14,7 @@
 
 /* inner text justify reference https://www.w3schools.com/cssref/tryit.php?filename=trycss3_text-justify */
  
-div {
+section {
   text-align: justify;
   text-justify: inter-word;
 }
