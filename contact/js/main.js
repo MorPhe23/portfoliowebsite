@@ -56,3 +56,10 @@ function speakChunksSequentially(chunks) {
 function stopSpeaking() {
   speechSynthesis.cancel();
 }
+
+//Footer
+// Get the date when the page was last modified
+var lastModified = new Date(document.lastModified);
+
+// Convert the date to a human-readable string format and display it on the page
+document.getElementById("last-modified").innerHTML = lastModified.toLocaleString();
