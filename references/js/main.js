@@ -1,9 +1,11 @@
+// Text to speech 
 if ('speechSynthesis' in window) {
   var utterance = new SpeechSynthesisUtterance();
   utterance.voice = speechSynthesis.getVoices()[0];
   var speakButton = document.getElementById('speak-button');
   var isSpeaking = false;
 
+// Text to speech button event listener
   speakButton.addEventListener('click', function() {
     if (!isSpeaking) {
       var pageText = document.body.innerText;
@@ -19,6 +21,7 @@ if ('speechSynthesis' in window) {
   });
 }
 
+// Split text to speech into chunks
 function splitTextIntoChunks(text) {
   var maxLength = 15000; // maximum length per chunk
   var chunks = [];
@@ -56,3 +59,10 @@ function speakChunksSequentially(chunks) {
 function stopSpeaking() {
   speechSynthesis.cancel();
 }
+
+//Footer
+// Get the date when the page was last modified
+var lastModified = new Date(document.lastModified);
+
+// Convert the date to a human-readable string format and display it on the page
+document.getElementById("last-modified").innerHTML = lastModified.toLocaleString();
