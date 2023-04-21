@@ -1,3 +1,25 @@
+// Define a function to show an HTML element with a given id
+function showInfo(id) {
+  // Get the HTML element with the id "info-" + id
+  const element = document.getElementById(`info-${id}`);
+  // If the element exists, set its display style to "block" to show it
+  if (element) {
+    element.style.display = "block";
+  }
+}
+
+// Define a function to hide an HTML element with a given id
+function hideInfo(id) {
+  // Get the HTML element with the id "info-" + id
+  const element = document.getElementById(`info-${id}`);
+  // If the element exists, set its display style to "none" to hide it
+  if (element) {
+    element.style.display = "none";
+  }
+}
+
+
+
 // Text to speech 
 if ('speechSynthesis' in window) {
   var utterance = new SpeechSynthesisUtterance();
